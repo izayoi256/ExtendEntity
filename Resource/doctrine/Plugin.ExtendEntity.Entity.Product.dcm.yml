@@ -1,0 +1,10 @@
+Plugin\ExtendEntity\Entity\Product:
+    type: entity
+    extended_entity: Eccube\Entity\Product
+    repositoryClass: Plugin\ExtendEntity\Repository\ProductRepository
+    oneToOne:
+        Product:
+            targetEntity: Eccube\Entity\Product
+            joinColumn:
+                name: product_id
+                referencedColumnName: product_id

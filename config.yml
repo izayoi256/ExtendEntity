@@ -1,0 +1,11 @@
+name: エンティティ拡張サンプル
+event: Event
+code: ExtendEntity
+version: 1.0.0
+orm.path:
+    - /Resource/doctrine
+    - /Resource/doctrine/master
+service:
+    - ExtendEntityServiceProvider
+extended_entities:
+    - Eccube\Entity\Product

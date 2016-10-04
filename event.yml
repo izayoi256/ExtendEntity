@@ -1,0 +1,2 @@
+admin.product.edit.initialize:
+    - [onAdminProductEditInitialize, NORMAL]
